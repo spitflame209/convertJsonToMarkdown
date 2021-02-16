@@ -1,8 +1,6 @@
 # convertJsonToMarkdown project
 
-practicing with scripts
-
-## Main objective: Pull JSON file content and write to Markdown file
+## Objective: Pull JSON file content and write to Markdown file
 
 - Check file extension, if JSON go to next step, else skip file
 - Create file with same name but .md extension
