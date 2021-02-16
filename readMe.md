@@ -1,4 +1,4 @@
-# openFile python project
+# convertJsonToMarkdown project
 
 practicing with scripts
 
