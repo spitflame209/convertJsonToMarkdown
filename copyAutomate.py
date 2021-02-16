@@ -1,4 +1,5 @@
 import os
+import json
 
 # read the source file location and the file name
 
@@ -9,16 +10,10 @@ print(src_file_location)
 
 # read the destination file location and file name while adding md extension
 
-dest_ext = '.md'
-dest_file = (os.path.splitext(src_file)[0]) + dest_ext
+dest_ext = '.md' # declares extension for new file
+dest_file = (os.path.splitext(src_file)[0]) + dest_ext # removes extension from source file
 dest_file_location = os.path.join(src_dir, dest_file)
 print(dest_file_location)
-
-# read the source file contents
-
-with open(src_file_location) as f:
-    for line in f:
-        print(line)
 
 # write the source file contents to destination file
 
